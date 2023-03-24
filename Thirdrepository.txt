@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+ int main()
+ {
+    float amount,period,rate,si;
+    printf("\n Enter the amount:");
+    scanf("%f",&amount);
+    printf("\n Enter the peroid:");
+    scanf("%f",&period);
+    printf("\n Enter the rate:");
+    scanf("%f",&rate);
+    si = amount*period*rate/100;
+    printf("simple intereset =%f,si");
+
+ }
